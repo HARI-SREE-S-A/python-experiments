@@ -1,0 +1,62 @@
+voter_id = [22,23,25,27]
+votes = []
+
+
+print("candidate code             name")
+print('    r                        roy')
+print('    m                        Mary')
+while True:
+    voter = int(input("enter voters id!!!"))
+    
+    
+    
+    if voter in voter_id:# FOR CHECKING IF A USER IS VALID
+    
+        print('u are eligible..')
+        
+        
+        
+        cast = input("enter candidate code.......")# GETTING INPUT FROM USER TO VALIDATE 
+        
+        
+        
+        
+        
+        for i in range (len(voter_id)):# TO STOP WEN ALL VOTER CAST
+            
+            
+            
+            votes.insert(i,cast)#UPDATING THE VOTES IN LIST
+            
+            
+            
+            if voter in voter_id:#VERIFICATION OF VOTERS ID
+                
+                
+                
+                voter_id.remove(voter)#REMOVING ALREADY VOTED VOTERS FROM LIST
+                
+                
+                
+                
+                if len(voter_id)==0:#VOTE COUNTING
+                    roy = votes.count("r")
+                    Mary = votes.count("m")
+                    
+                    
+                    
+                    
+                    if roy > Mary:#RESULT PRINTING
+                        print("Roy won")
+                        break
+                    else:
+                        print("Mary won")
+                        
+                
+            
+                        
+            
+                
+    else:
+        print('sorry IN ELIGIBLE TO VOTE')
+   
