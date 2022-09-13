@@ -16,7 +16,7 @@ while True:
         
         
         
-        cast = input("enter candidate code.......")# GETTING INPUT FROM USER TO VALIDATE 
+        cast = input("enter candidate code.......")# GETTING INPUT vote FROM USER 
         
         
         
