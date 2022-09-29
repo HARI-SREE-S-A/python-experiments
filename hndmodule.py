@@ -72,7 +72,8 @@ def main():
         cv2.imshow("image",img)
         cv2.waitKey(1)
 
-if __name__ == "__main__":
+if __name__ == "__main__
+
     main()
 
 
