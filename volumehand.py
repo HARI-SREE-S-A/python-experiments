@@ -11,6 +11,9 @@ from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 wCam, hCam = 640,480
 
 ###########################################################
+
+
+
 cTime = 0
 pTime = 0
 detector = hmt.handDetector()
