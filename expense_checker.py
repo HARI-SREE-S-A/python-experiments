@@ -5,5 +5,4 @@ fuel_con = (dist /milage)
 
 
 
-
 print("expense for the travel is ",fuel_con*petrolprice)
