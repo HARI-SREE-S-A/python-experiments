@@ -8,7 +8,6 @@ facemesh = mpfacemesh.FaceMesh()
 mpdraw = mp.solutions.drawing_utils
 measurements = mpdraw.DrawingSpec(thickness=1,circle_radius=1)
 
-
 cap = cv2.VideoCapture(0)
 ctime = 0
 ptime = 0
