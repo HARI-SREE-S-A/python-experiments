@@ -3,8 +3,6 @@ import mediapipe as mp
 import time
 
 
-
-
 mpfacemesh = mp.solutions.face_mesh
 facemesh = mpfacemesh.FaceMesh()
 mpdraw = mp.solutions.drawing_utils
