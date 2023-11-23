@@ -5,6 +5,7 @@ for i in range(n+3):
         continue
 
     
+    
     else:
         print("*" * i)
     
