@@ -5,7 +5,6 @@ for i in range(0,len(a)):
      print(diff)
      if diff in b:
 
-
           
 
            print("true")
