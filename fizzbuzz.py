@@ -5,6 +5,8 @@ for i in range(len(number)):
     elif number[i]%4 == 0:
         print("fizz")
 
+
+
     
     elif number[i]%6 == 0:
         print("buzz")
