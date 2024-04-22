@@ -6,6 +6,8 @@ b = 1
 
 
 
+
+
 for i in range(n):
     x.append(a)
     a ,b =b, a + b
