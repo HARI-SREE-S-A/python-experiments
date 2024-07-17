@@ -43,6 +43,8 @@ while True:
     fps = 1/(cTime-pTime)
     pTime = cTime
 
+
+    
     img = detector.findHands(img)
     lmList = detector.findposition(img)
     if len(lmList) !=0:
