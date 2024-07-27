@@ -7,7 +7,7 @@ for i in range(len(number)):
 
 
 
-    
+   
     elif number[i]%6 == 0:
         print("buzz")
 
