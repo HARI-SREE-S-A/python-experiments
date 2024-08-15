@@ -4,7 +4,6 @@ from math import sqrt
 
 cap = cv2.VideoCapture(0)
 
-
 mpHands = mp.solutions.hands
 hands = mpHands.Hands()
 mpDraw = mp.solutions.drawing_utils
