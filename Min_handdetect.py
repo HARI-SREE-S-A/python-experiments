@@ -1,7 +1,6 @@
 import cv2
 import mediapipe as mp
 from math import sqrt
-
 cap = cv2.VideoCapture(0)
 
 mpHands = mp.solutions.hands
