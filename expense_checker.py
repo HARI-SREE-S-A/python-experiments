@@ -4,4 +4,5 @@ dist = int(input("enter the distance"))
 fuel_con = (dist /milage)
 
 
+
 print("expense for the travel is ",fuel_con*petrolprice)
